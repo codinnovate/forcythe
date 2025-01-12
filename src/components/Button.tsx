@@ -1,7 +1,7 @@
 export default function Button({title}:{title:string}){
     return (
         <button 
-        className="action-button custom-animate w-w-fit 
+        className="action-button border-dotted border-white w-w-fit 
         py-[12px] px-5 flex gap-2 items-center justify-center 
         rounded-full bg-white text-black text-base relative 
         z-10 font-semibold group-hover:bg-[#064386] 
