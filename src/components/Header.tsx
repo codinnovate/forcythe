@@ -7,16 +7,11 @@ import Button from "./Button";
 import Image from "next/image";
 import { menuIcon } from "@/assets";
 import { useState } from "react";
+import { navItems } from "@/constants";
 
 
 
-const navItems = [
-    { label: "About", href: "/" },
-    { label: "Services", href: "/#" },
-    { label: "Portfolio", href: "/#" },
-    { label: "Studio", href: "/#" },
-    { label: "Foundation", href: "/#" },
-];
+
 
 
 export default function Header(){

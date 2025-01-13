@@ -1,6 +1,6 @@
 'use client';
 
-import { BeauLogo, christina, edwin, execProCeo, executivePro, iwariFounder, iwariLogo, john, logoImage, stackAiLogo, starksLogo } from "@/assets";
+import { BeauLogo, christina, edwin, execProCeo, executivePro, iwariFounder, iwariLogo, john,  stackAiLogo, starksLogo } from "@/assets";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useEffect, useRef, useState, useCallback } from "react";

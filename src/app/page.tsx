@@ -8,8 +8,6 @@ import Solutions from "@/components/Solutions";
 import Spark from "@/components/Spark";
 import Success from "@/components/Success";
 
-import Image from "next/image";
-
 export default function Home() {
   return (
   <main className="flex flex-col gap-5  overflow-x-hidden w-full h-fukk">

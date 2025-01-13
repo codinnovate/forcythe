@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 
-const AnimatedText = ({ children, className}:{children:React.ReactNode, className:string}) => {
+const AnimatedText = ({ children, className}:{children:React.ReactNode, className?:string}) => {
   const containerVariants = {
     initial: { opacity: 0 },
     animate: {
