@@ -18,14 +18,14 @@ export default function Footer(){
                 Company
             </h1>
             <div className="">
-            {navItems.map((nav, i) => (
+            {/* {navItems.map((nav, i) => (
                 <Link
                 className="text-blu-100" 
                 key={i}
                 href={nav.href}>
                     {nav.label}
                 </Link>
-            ))}
+            ))} */}
             </div>
         </div>
 

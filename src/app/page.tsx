@@ -12,9 +12,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <main className="flex flex-col gap-5">
+  <main className="flex flex-col gap-5  overflow-x-hidden w-full h-fukk">
     <Header />
     <Hero />
+    <div className="max-w-6xl mx-auto w-full p-4 flex flex-col gap-[5em]">
     <Success />
     <Discover />
     <Spark />
@@ -22,6 +23,7 @@ export default function Home() {
     <Blogs />
     <Call />
     <Footer />
+    </div>
   </main>
   );
 }

@@ -14,6 +14,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  width: 100%;
+  margin: 0;
+  overflow-x: auto;
   font-family: "Lexend", serif;
   transition: 0.3secs linear ease-in-out;
 
