@@ -1,12 +1,17 @@
 import Link from "next/link";
 import Logo from "./Logo";
 import { navItems } from "@/constants";
+import Subscription from "./Subscription";
 
 export default function Footer(){
     return (
-        <footer className="flex flex-col gap-10">
-        <div className="grid grid-cols-3">
-        {/* <Subscription/> */}
+        <footer className=" bg-[#071626] py-5">
+        <section
+        className="flex flex-col gap-10 py-5 p-3 max-w-5xl mx-auto w-full"
+        >
+
+        <div className="flex flex-col md:grid grid-cols-3 gap-5">
+        <Subscription />
         <div className="flex gap-5 flex-col">
             <Logo />
             <h1 className="text-grey">
@@ -36,6 +41,8 @@ export default function Footer(){
         <div className="border-t border-blu-100 mb-5">
         <p className="text-blu-200 text-sm mt-5  ">Copyright © 2024 Forcythe. All rights reserved.</p>
         </div>
+        </section>
+
     </footer>
     )
 }

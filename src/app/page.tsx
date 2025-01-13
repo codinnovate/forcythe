@@ -10,18 +10,20 @@ import Success from "@/components/Success";
 
 export default function Home() {
   return (
-  <main className="flex flex-col gap-5  overflow-x-hidden w-full h-fukk">
+  <main className="flex flex-col   overflow-x-hidden w-full h-fukk">
     <Header />
     <Hero />
     <div className="max-w-6xl mx-auto w-full p-4 flex flex-col gap-[5em]">
     <Success />
     <Discover />
     <Spark />
+    </div>
     <Solutions />
+    <div className="max-w-6xl mx-auto w-full p-4 flex flex-col gap-[5em]">
     <Blogs />
+    </div>
     <Call />
     <Footer />
-    </div>
   </main>
   );
 }

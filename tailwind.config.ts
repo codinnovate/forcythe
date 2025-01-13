@@ -25,10 +25,12 @@ export default {
       colors: {
         background: "var(--background)",
         grey:"#AEA9B1",
+        
         blu:{
           100:"#60A6E7",
           200:"#B3D0F2",
           600:"#0c2645",
+          900:"#030516",
         },
         foreground: "var(--foreground)",
       },

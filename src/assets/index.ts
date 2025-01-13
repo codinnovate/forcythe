@@ -15,12 +15,14 @@ import john from './john.svg';
 import execProCeo from './executive-pro-ceo.svg';
 import iwariLogo from './iwaria_logo.svg';
 import iwariFounder from './iwaria-founder.svg';
+import layersIcon from './layers-three.svg';
 
 
 
 
 export  {
     logoImage,
+    layersIcon,
     john,
     execProCeo,
     menuIcon,
