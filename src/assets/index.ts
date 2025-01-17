@@ -16,17 +16,27 @@ import execProCeo from './executive-pro-ceo.svg';
 import iwariLogo from './iwaria_logo.svg';
 import iwariFounder from './iwaria-founder.svg';
 import layersIcon from './layers-three.svg';
-
-
+import play from './play.svg';
+import playWhite from './play-white.svg';
+import cameraman from './camera-man.svg';
+import planDesign from './plan-design.svg';
+import planDevelop from './plan-develop.svg';
+import planLaunch from './plan-launch.svg';
 
 
 export  {
     logoImage,
+    cameraman,
+    planDesign,
+    planDevelop,
+    planLaunch,
     layersIcon,
     john,
     execProCeo,
     menuIcon,
     activity,
+    play,
+    playWhite,
     afrifund,
     execPro,
     starks,
