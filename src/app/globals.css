@@ -1,15 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@property --border-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@layer utilities {
+  @keyframes border-rotate {
+    to {
+      --border-angle: 360deg;
+    }
+  }
+
+  .animate-border-rotate {
+    animation: border-rotate 5s linear infinite;
+  }
+}
+
 :root {
   --background: #030516;
   --foreground: #ffffff;
 }
-
-
 
 body {
   color: var(--foreground);
@@ -18,6 +34,5 @@ body {
   margin: 0;
   overflow-x: auto;
   font-family: "Lexend", serif;
-  transition: 0.3secs linear ease-in-out;
-
+  transition: 0.3s linear ease-in-out;
 }

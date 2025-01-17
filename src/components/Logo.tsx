@@ -5,8 +5,7 @@ export default function Logo(){
     return (
         <Image 
         src={logoImage} 
-        width={112}
-        height={24.8}
+        
         alt="Forcythe"
         />
     )

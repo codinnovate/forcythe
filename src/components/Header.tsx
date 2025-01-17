@@ -19,7 +19,9 @@ export default function Header(){
     const toggleMenu = () => setShowMenu(!showMenu);
     return (
 
-        <header className="flex justify-between px-2 py-7 sticky top-0 z-30 backdrop-blur-lg gap-10 items-center">
+        <header className="flex px-2 py-7 fixed  w-full left-0 right-0 top-0 z-30 backdrop-blur-lg gap-10 items-center">
+        <div className="max-w-6xl mx-auto w-full justify-between flex">
+        <div className="gap-[5em] flex items-center">
         <Logo />
         <nav className="hidden md:flex gap-5">
             {navItems.map((nav, i) => (
@@ -30,6 +32,7 @@ export default function Header(){
                 </Link>
             ))}
         </nav>
+            </div>
 
         <button 
         onClick={toggleMenu}
@@ -40,6 +43,7 @@ export default function Header(){
           height={18}
           alt="menu icon" />
         </button>
+        
         <Button
         className='hidden md:flex'
         title="Book a Call"
@@ -52,7 +56,7 @@ export default function Header(){
             style={{ background: "linear-gradient(0deg, rgba(7, 22, 38, 0) 32%, rgb(7, 22, 38) 85%)" }}>
         <ul className="flex flex-col gap-2.5">
             {navItems.map((nav, i) => (
-                 <li key={i}>
+                <li key={i}>
                  <Link href={nav.href}>
                      {nav.label}
                  </Link>
@@ -61,6 +65,7 @@ export default function Header(){
         </ul>
         </div>
        )}
+       </div>
         </header>
     )
 }

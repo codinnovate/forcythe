@@ -10,10 +10,10 @@ import Success from "@/components/Success";
 
 export default function Home() {
   return (
-  <main className="flex flex-col   overflow-x-hidden w-full h-fukk">
+  <main className="flex flex-col overflow-x-hidden w-full h-full">
     <Header />
     <Hero />
-    <div className="max-w-6xl mx-auto w-full p-4 flex flex-col gap-[5em]">
+    <div className="max-w-6xl   mx-auto w-full p-2 flex flex-col gap-[5em]">
     <Success />
     <Discover />
     <Spark />
