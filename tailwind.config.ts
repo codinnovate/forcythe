@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'conic': 'conic-gradient(from var(--border-angle), black 80%, green 90%, black 100%)',
+      },
       animation:{
         "loop-scroll":'loop-scroll 20s linear infinite',
         "loop-scroll-reverse":'loop-scroll-reverse 20s linear infinite',
