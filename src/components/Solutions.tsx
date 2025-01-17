@@ -9,10 +9,10 @@ export default function Solutions(){
         style={{
           background: "linear-gradient(0deg, rgb(12, 38, 69) 20%, rgb(3, 5, 22) 70%)",
         }}>
-          <div className="flex flex-col max-w-5xl mx-auto w-full p-4"
+          <div className="flex flex-col max-w-6xl mx-auto w-full p-4"
           >
             <HeaderText className='text-blue-200'>
-                Your best call for B2B/B2c product innovation
+                Your best call for B2B/B2C product innovation
             </HeaderText>
             <div className="flex flex-col justify-center items-center md:grid grid-cols-3 gap-8 ">
               {experienceItems.map((experienceItem, idx) => (
